@@ -1,0 +1,16 @@
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\bin\Release\display.bat
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\bin\Release\DoAn.mla
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\bin\Release\input.tex
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\bin\Release\solve.bat
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\bin\Release\DaoHamTichPhanGioiHan.exe.config
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\bin\Release\DaoHamTichPhanGioiHan.exe
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\bin\Release\DaoHamTichPhanGioiHan.pdb
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.csprojAssemblyReference.cache
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.InformationForm.resources
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.MainForm.resources
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.Properties.Resources.resources
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.SettingsForm.resources
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.csproj.GenerateResource.cache
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.csproj.CoreCompileInputs.cache
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.exe
+E:\C#\DaoHamTichPhanGioiHan\DaoHamTichPhanGioiHan\obj\Release\DaoHamTichPhanGioiHan.pdb

@@ -1,0 +1,16 @@
+﻿Để sử dụng chương trình, cần cài đặt các phần mềm sau:
+- Maple 2016 64-bit (các phiên bản cũ hơn có thể KHÔNG sử dụng được)
+- Miktex (phiên bản đã dùng là 2.9 64-bit), cần tải thêm 3 package sau (trong Miktex Package Manager):
+	+ arabi
+	+ babel-vietnamese
+	+ vntex
+- ImageMagick (phiên bản đã dùng là 7.0.5 Q16 64-bit), cần tick thêm 2 tùy chọn trong lúc cài đặt:
+	+ Install legacy utilities (e.g. convert)
+	+ Install development header and libraries for C and C++
+- Ghostscript (phiên bản đã dùng là 9.21 64-bit)
+
+Chương trình là một file duy nhất tên "DaoHamTichPhanGioiHan.exe", trong thư mục chứa chương trình phải có các file sau:
+- DoAn.mla
+- solve.bat
+- display.bat
+- input.tex

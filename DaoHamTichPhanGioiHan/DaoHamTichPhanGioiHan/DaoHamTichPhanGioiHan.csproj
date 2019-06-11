@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{319BE1C4-D58A-45FD-A614-FBB6C5A7377D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DaoHamTichPhanGioiHan</RootNamespace>
+    <AssemblyName>DaoHamTichPhanGioiHan</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformationForm.Designer.cs">
+      <DependentUpon>InformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="InformationForm.resx">
+      <DependentUpon>InformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="display.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DoAn.mla">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="input.tex">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="solve.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daoham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gioihan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tichphan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tichphan2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tichphan3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tp2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tp3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\a!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\a^b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\abs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\cbrt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\cos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\diff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\infinity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\int.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\int2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\lim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\ln.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\nroot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\pi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\sin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\sqrt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\sum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syntax\tan.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
